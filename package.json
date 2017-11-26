@@ -1,0 +1,27 @@
+{
+  "name": "learning-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./**/*.spec.js --require babel-register --require babel-polyfill -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterNMcArthur/learning-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeterNMcArthur/learning-course/issues"
+  },
+  "homepage": "https://github.com/PeterNMcArthur/learning-course#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
